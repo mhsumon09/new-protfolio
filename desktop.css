@@ -1,0 +1,125 @@
+ /* Desktop-Css */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nabLogo{
+    text-align: left;
+}
+.navHeading h1{
+    text-align: right;
+}
+
+.navbarMenu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbarMenu a{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+
+
+/* --------- nabBar design end ------ */
+
+.profile .topIcon{
+	position: absolute;
+	width: 120px;
+    height: auto;
+    right: 100px;
+    width: 120px;
+	transition: width 2s, transform 2s;
+
+}
+.profile .topIcon:hover{
+	width: 140px;
+}
+
+.profileDes p{
+	color: rgb(140, 139, 148);
+	text-align: center;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.profile .bottomIcon{
+    bottom: 20px;
+	position: absolute;
+	width: 120px;
+    height: auto;
+    left: 140px;
+    width: 120px;
+	transition: width 2s, transform 2s;
+
+}
+.profile .bottomIcon:hover{
+	width: 140px;
+}
+
+/* ----------------------------------- */
+
+.aboutMeImg{
+    margin-top: 100px;
+}
+
+.aboutMeImg img{
+    height: 270px;
+    width: 250px;
+}
+
+.aboutMeDes p{
+    text-align: left;
+}
+
+/* ------------------------------ */
+
+.professionalExperience{
+    padding: 1% 5%;
+}
+
+/* --------------- */
+
+.achivement{
+    padding-right: 50px;
+}
+
+.contact button{
+	width: 150px;
+}
+.contactLinks{
+	position: relative;
+}
+.mediaButton{
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* .mediaButton .btn{
+    margin-top: 100px;
+} */
+
+
+/* ------------------------ */
+.footerMenu{
+    margin-top: 12px;
+}
+.footerMenu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+}
